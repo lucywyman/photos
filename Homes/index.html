@@ -1,0 +1,14 @@
+---
+layout: category
+slugify: true
+title: Homes
+---
+
+<br><br>
+    {% for photo in site.categories.Homes %}
+    <div class='photo'>
+        {{ photo.content }}
+    </div>
+    {% endfor %}
+
+

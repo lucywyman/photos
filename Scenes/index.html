@@ -1,0 +1,14 @@
+---
+layout: category
+slugify: true
+title: Scenes
+---
+
+<br><br>
+    {% for photo in site.categories.Scenes %}
+    <div class='photo'>
+        {{ photo.content }}
+    </div>
+    {% endfor %}
+
+

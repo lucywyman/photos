@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Belle Photographie</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 26 Mar 2015 22:00:47 -0700</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2015 22:00:47 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title></title>
+        <description>&lt;p&gt;&lt;img src=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/little-white-flowers.html</link>
+        <guid isPermaLink="true">/little-white-flowers.html</guid>
+        
+        
+        <category>flowers</category>
+        
+      </item>
+    
+      <item>
+        <title>Sautéed Zucchini</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/sautee-zucchini.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/fried-zucchini.html</link>
+        <guid isPermaLink="true">/fried-zucchini.html</guid>
+        
+        
+        <category>foods</category>
+        
+      </item>
+    
+      <item>
+        <title>Baked Hot Chocolate</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/foods/baked-hot-chocolate.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/baked-hot-chocolate.html</link>
+        <guid isPermaLink="true">/baked-hot-chocolate.html</guid>
+        
+        
+        <category>foods</category>
+        
+      </item>
+    
+      <item>
+        <title>The Living is Easy</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/flowers/magnolias.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/magnolias.html</link>
+        <guid isPermaLink="true">/magnolias.html</guid>
+        
+        
+        <category>flowers</category>
+        
+      </item>
+    
+      <item>
+        <title>Cherry Blossom</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/flowers/cherry-blossoms.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/cherry-blossoms.html</link>
+        <guid isPermaLink="true">/cherry-blossoms.html</guid>
+        
+        
+        <category>flowers</category>
+        
+      </item>
+    
+  </channel>
+</rss>

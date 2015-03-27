@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo|Oxygen|Vollkorn|Noticia+Text);
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  font-size: 100%;
+  overflow-x: hidden; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+h1, h2, h3, h4, h5, p, a, li, label {
+  font-family: "Vollkorn", serif;
+  color: #8A817E;
+  max-width: 100%; }
+
+h1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 36px; }
+
+h2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 22px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 24px; }
+
+p, label, li {
+  font-size: 18px; }
+
+a {
+  color: #8AC6AC;
+  text-decoration: none; }
+
+a:hover {
+  color: rgba(138, 198, 172, 0.6); }
+
+ul {
+  list-style-type: none; }
+
+.menu {
+  background: #F7F6F2;
+  width: 100%;
+  height: 10vh;
+  padding: 0px 20px; }
+  .menu ul li {
+    display: inline-block; }
+    .menu ul li a {
+      line-height: 10vh;
+      display: block;
+      padding: 0px 10px; }
+
+#content {
+  min-height: 75vh;
+  font-size: 0px; }
+  #content .photo {
+    max-height: 37.5vh;
+    max-width: 25vw;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; }
+    #content .photo img {
+      max-width: 500px;
+      max-height: 500px;
+      margin: 0px auto;
+      vertical-align: middle; }
+
+.footer {
+  max-height: 15vh;
+  background: #8AC6AC; }
+  .footer p {
+    padding: 20px;
+    max-width: 400px;
+    display: inline-block; }
+  .footer a {
+    color: #F7F6F2; }
+  .footer .icons {
+    display: inline-block;
+    vertical-align: middle; }
+  .footer img {
+    max-width: 40px;
+    display: inline-block; }
