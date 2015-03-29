@@ -5,13 +5,52 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Mar 2015 22:00:47 -0700</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2015 22:00:47 -0700</lastBuildDate>
+    <pubDate>Sat, 28 Mar 2015 21:45:42 -0700</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2015 21:45:42 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title></title>
-        <description>&lt;p&gt;&lt;img src=&quot;&quot; /&gt;&lt;/p&gt;
+        <title>Stately Buttercream Home</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/homes/stately-buttercream.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/stately-buttercream.html</link>
+        <guid isPermaLink="true">/stately-buttercream.html</guid>
+        
+        
+        <category>homes</category>
+        
+      </item>
+    
+      <item>
+        <title>Red</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/red.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/red.html</link>
+        <guid isPermaLink="true">/red.html</guid>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Peachy Keen</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/scenes/peach-mug.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/peachy-mug.html</link>
+        <guid isPermaLink="true">/peachy-mug.html</guid>
+        
+        
+        <category>scenes</category>
+        
+      </item>
+    
+      <item>
+        <title>Rhododendron Flora</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/flowers/little-white-flowers.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
         <link>/little-white-flowers.html</link>
@@ -24,7 +63,7 @@
     
       <item>
         <title>Sautéed Zucchini</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/sautee-zucchini.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/foods/sautee-zucchini.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
         <link>/fried-zucchini.html</link>
@@ -32,6 +71,32 @@
         
         
         <category>foods</category>
+        
+      </item>
+    
+      <item>
+        <title>The Stage</title>
+        <description>&lt;img src=&quot;/assets/img/scenes/fiery-stage.jpg&quot; /&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/fiery-stage.html</link>
+        <guid isPermaLink="true">/fiery-stage.html</guid>
+        
+        
+        <category>scenes</category>
+        
+      </item>
+    
+      <item>
+        <title>Studying</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/byron.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/byron.html</link>
+        <guid isPermaLink="true">/byron.html</guid>
+        
+        
+        <category>people</category>
         
       </item>
     
@@ -49,25 +114,25 @@
       </item>
     
       <item>
+        <title>The Art of French Cooking</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/scenes/art-of-french-cooking.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2015 00:00:00 -0700</pubDate>
+        <link>/art-of-french-cooking.html</link>
+        <guid isPermaLink="true">/art-of-french-cooking.html</guid>
+        
+        
+        <category>scenes</category>
+        
+      </item>
+    
+      <item>
         <title>The Living is Easy</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/img/flowers/magnolias.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Mar 2015 00:00:00 -0700</pubDate>
         <link>/magnolias.html</link>
         <guid isPermaLink="true">/magnolias.html</guid>
-        
-        
-        <category>flowers</category>
-        
-      </item>
-    
-      <item>
-        <title>Cherry Blossom</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/flowers/cherry-blossoms.jpg&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 22 Mar 2015 00:00:00 -0700</pubDate>
-        <link>/cherry-blossoms.html</link>
-        <guid isPermaLink="true">/cherry-blossoms.html</guid>
         
         
         <category>flowers</category>

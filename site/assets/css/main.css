@@ -34,6 +34,7 @@ p, label, li {
   font-size: 18px; }
 
 a {
+  display: inline-block;
   color: #8AC6AC;
   text-decoration: none; }
 
@@ -46,22 +47,44 @@ ul {
 .menu {
   background: #F7F6F2;
   width: 100%;
-  height: 10vh;
-  padding: 0px 20px; }
+  height: 7vh;
+  padding: 0px 20px;
+  position: relative; }
   .menu ul li {
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: top; }
     .menu ul li a {
-      line-height: 10vh;
+      line-height: 7vh;
       display: block;
       padding: 0px 10px; }
+    .menu ul li ul {
+      display: none;
+      z-index: 100;
+      position: absolute;
+      top: 7vh;
+      background: #F7F6F2;
+      margin: 0px;
+      padding: 0px; }
+      .menu ul li ul li {
+        display: block;
+        width: 150px;
+        padding: 5px; }
+        .menu ul li ul li a {
+          display: block;
+          line-height: 1em; }
+    .menu ul li .expand:hover ~ ul, .menu ul li ul:hover {
+      display: block;
+      cursor: pointer;
+      transition: 2s ease; }
 
 #content {
-  min-height: 75vh;
+  min-height: 80vh;
   font-size: 0px; }
   #content .photo {
-    max-height: 37.5vh;
+    max-height: 46.5vh;
     max-width: 25vw;
     display: inline-block;
+    position: relative;
     margin: 0px;
     padding: 0px;
     overflow: hidden; }
@@ -70,9 +93,28 @@ ul {
       max-height: 500px;
       margin: 0px auto;
       vertical-align: middle; }
+  #content .info {
+    display: none;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 25vw;
+    height: 46.5vh; }
+    #content .info h4 {
+      font-size: 20px;
+      color: #fff;
+      padding: 5px; }
+    #content .info p {
+      font-size: 16px;
+      color: #fff;
+      padding: 5px; }
+  #content .link:hover .info {
+    display: block; }
 
 .footer {
-  max-height: 15vh;
+  max-height: 13vh;
   background: #8AC6AC; }
   .footer p {
     padding: 20px;

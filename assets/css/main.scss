@@ -10,8 +10,9 @@ $sans: 'Oxygen', sans-serif;
 $serif: 'Vollkorn', serif;
 $dark: $sec;
 $light: $bg;
-$menu-y: 10vh;
-$footer-y: 15vh;
+$transparent: rgba(255, 255, 255, .8);
+$menu-y: 7vh;
+$footer-y: 13vh;
 
 * {margin: 0;} 
 
@@ -47,6 +48,7 @@ h4{
 p, label, li{
     font-size: 18px;}
 a{
+    display: inline-block;
     color: $accent;
     text-decoration: none;}
 
@@ -60,11 +62,13 @@ ul{
     width: 100%;
     height: $menu-y;
     padding: 0px 20px;
+    position: relative;
 
     ul{
     
         li {
             display: inline-block;
+            vertical-align: top;
             
 
             a{
@@ -72,18 +76,48 @@ ul{
                 display: block;
                 padding: 0px 10px;
             }
+
+            ul{
+                display: none;
+                z-index: 100;
+                position: absolute;
+                top: $menu-y;
+                background: $prim;
+                margin: 0px;
+                padding: 0px;
+            
+                li{
+                    display: block;
+                    width: 150px;
+                    padding: 5px;
+
+                    a {
+                        display: block;
+                        line-height: 1em;
+                    }
+                }
+            }
+            .expand:hover ~ ul, ul:hover{
+            display: block;
+            cursor: pointer;                
+            transition: 2s ease;
         }
-    }
+      }
+   }
 } 
 
+
+
+
 #content{
-    min-height: 75vh;
+    min-height: 80vh;
     font-size: 0px;
     
     .photo{
-        max-height: 37.5vh;
+        max-height: 46.5vh;
         max-width: 25vw;
         display: inline-block;
+        position: relative;
         margin: 0px;
         padding: 0px;
         overflow: hidden;
@@ -94,6 +128,31 @@ ul{
             margin: 0px auto;
             vertical-align: middle;
         }
+    }
+       
+    .info{
+        display: none;
+        background: rgba(0, 0, 0, .4);
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        width: 25vw;
+        height: 46.5vh;
+
+        h4{
+            font-size: 20px;
+            color: $light;
+            padding: 5px;
+        }    
+        p{ 
+            font-size: 16px;
+            color: $light;
+            padding: 5px;
+        }
+    }
+    .link:hover .info{
+        display: block;
     }
 }
 

@@ -3,8 +3,14 @@ layout: default
 ---
 
 {% for post in site.posts limit: 8 %}
+    <a class='link' href='{{ post.url }}'>
     <div class='photo'>
         {{ post.content }}
+        <div class='info'>
+            <h4 class='hidden'>{{ post.title }}</h4>
+            <p class='hidden'>{{ post.location }}</p>
+        </div>
     </div>
+    </a>
 {% endfor %}
 

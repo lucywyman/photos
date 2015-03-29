@@ -2,7 +2,9 @@
 layout: default
 ---
 <div class='photo'>
-    {{ page.content }}
+    <a href='{{ page.url }}'>{{ page.content }}</a>
+    <div class='info'>
     <h4 class='hidden'>{{ page.title }}</h4>
     <p class='hidden'>{{ page.location }}</p>
+    </div>
 </div>
